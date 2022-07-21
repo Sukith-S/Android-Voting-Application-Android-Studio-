@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall4"
+    tools:context=".VoterPage">
+
+    <TextView
+        android:id="@+id/text21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="Electoral College Vote"
+        android:textColor="#FAF9F9"
+        android:textSize="44sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/text22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="For the post of President of CSE"
+        android:textColor="#DD2C00"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_below="@id/text22"
+        android:layout_marginTop="40dp">
+
+        <RelativeLayout
+            android:layout_width="172dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_width="86dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/klogo"></ImageView>
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="63dp"
+                android:layout_height="19dp"
+                android:layout_below="@id/icon1"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:text="Kavana R"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#606867"
+            android:text="Vote"
+            android:textColor="@color/black"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_marginTop="350dp">
+
+        <RelativeLayout
+            android:layout_width="173dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/slogo"></ImageView>
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/icon2"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:text="Shrinidhi Kolvekar"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="90dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#606867"
+            android:text="Vote"
+            android:textColor="@color/black"></Button>
+    </LinearLayout>
+</RelativeLayout>
